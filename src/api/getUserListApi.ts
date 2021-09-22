@@ -1,5 +1,9 @@
 // import axios from 'axios';
-
+type obj = {
+  name:string;
+  value: string;
+  id: string;
+}
 const modelData = [{
   name: 'gby',
   value: '1',
@@ -26,7 +30,7 @@ const modelData = [{
   id: '6'
 }]
 
-export function getUserListApi(){
+export function getUserListApi():obj[]{
   console.log('请求数据===');
   // 模拟数据
   return modelData
