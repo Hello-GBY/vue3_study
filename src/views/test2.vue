@@ -27,7 +27,7 @@ export default defineComponent({
         });
         // 方法
         const updateUser = () => {
-            user.property.stuta = 'playing'
+            user.property.stuta = 'playing';
         }
         return {
             user,
