@@ -18,11 +18,7 @@ export default {
     const userList = ref([]);
     const queryName = ref('');
 
-    // 请求数据
-    const getUserList = () => {
-      // userList.value = await getuserListApi(props.user)
-      userList.value = getUserListApi(props.user)
-    }
+ 
 
     // 请求数据处理
     const  filterUserList= () => {
