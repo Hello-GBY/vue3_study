@@ -11,7 +11,7 @@
  * 一个模拟用户仓库查询
  */
 // 组合api 练习
-import {onMounted, ref, watch} from 'vue'
+import {onMounted, ref, toRefs, watch} from 'vue'
 // import {getUserListApi} from '@/api/getUserListApi.ts'
 import test2 from '@/views/test2.vue'
 interface Data {
@@ -50,6 +50,7 @@ export default {
     // watch(queryName, filterUserList)
 
     // // 返回实例
+    toRefs
     return {
       userList: userList,
       queryName

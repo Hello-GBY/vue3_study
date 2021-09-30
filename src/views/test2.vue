@@ -19,7 +19,7 @@ export default defineComponent({
     setup(){
         // reactive 把复杂数据变成响应式数据
         const user = reactive({
-            name: '小郭',
+            name: 'name',
             property: {
                 stuta: 'codeing',
                 learning: 'vue3'
